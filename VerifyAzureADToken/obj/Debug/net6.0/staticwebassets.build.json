@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ayOTZq84I+tiwzk487/xP1/YfwbEaZAYU3cx2yc6qU4=",
+  "Source": "VerifyAzureADToken",
+  "BasePath": "_content/VerifyAzureADToken",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
