@@ -1,6 +1,6 @@
 # How to Run App
 `Require Net 6`
-1. Install net core sdk 6.100
+1. Install .Net sdk 6.100 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 2. Open in visual studio
 
 ## Payload
