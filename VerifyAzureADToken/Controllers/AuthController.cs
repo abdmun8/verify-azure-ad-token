@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
-using System.Text.Json;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using System.Security.Principal;
-using System.Security.Cryptography;
+//using System.Text;
 using System.Security.Cryptography.X509Certificates;
 
 namespace VerifyAzureADToken.Controllers
@@ -14,23 +11,21 @@ namespace VerifyAzureADToken.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        private readonly ILogger<AuthController> _logger;
-        private readonly string TENANT_ID = "b7cf3d78-6cbd-4ac2-9956-f68ab60960bf";
-        private readonly string APPLICATION_ID = "373443fd-1110-443a-b448-107a0748c0cf";
+        private static readonly string TENANT_ID = "b7cf3d78-6cbd-4ac2-9956-f68ab60960bf";
+        private static readonly string APPLICATION_ID = "373443fd-1110-443a-b448-107a0748c0cf";
 
         public AuthController(ILogger<AuthController> logger, IHttpClientFactory httpClientFactory)
         {
-            _logger = logger;
             _httpClientFactory = httpClientFactory;
         }
 
         [HttpPost("Verify")]
         public async Task<ActionResult> Verify(TokenDto bodyData)
-        {   
+        {
             //// ambil public key dari microsoft
             //var httpRequestMessage = new HttpRequestMessage(
             //HttpMethod.Get,
-            //"https://login.microsoftonline.com/" + TENANT_ID + "/discovery/v2.0/keys")
+            //$"https://login.microsoftonline.com/{TENANT_ID}/discovery/v2.0/keys")
             //{
             //};
             //var httpClient = _httpClientFactory.CreateClient();
@@ -80,7 +75,9 @@ namespace VerifyAzureADToken.Controllers
 
             return new TokenValidationParameters()
             {
-                IssuerSigningKey = new X509SecurityKey(certificate)
+                IssuerSigningKey = new X509SecurityKey(certificate),
+                ValidAudience = APPLICATION_ID as string,
+                ValidIssuer = $"https://login.microsoftonline.com/{TENANT_ID}/v2.0"
             };
         }
     }

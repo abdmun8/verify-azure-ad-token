@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "Aba/8zDeUkcmETFe8YbuORM4OjYhA7SE+K0167jIHGQxLMGMqo4ilsHu6A/rwCJaeMvWqjRVBT4OllKpbc6t3w==",
+  "dgSpecHash": "qB9XpCUG44vCWWergTZt0fzZsRd71CbMP+9nODLGb1YhaXNTozfMYSPXA2o6TyuoSeUoz70vUdBFyLZ223aH6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abdmu\\source\\repos\\VerifyAzureADToken\\VerifyAzureADToken\\VerifyAzureADToken.csproj",
+  "projectFilePath": "/Users/abdulmunim/Code/TU/verify-azure-ad-token/VerifyAzureADToken/VerifyAzureADToken.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.19.0\\microsoft.identitymodel.abstractions.6.19.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.19.0\\microsoft.identitymodel.jsonwebtokens.6.19.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.19.0\\microsoft.identitymodel.logging.6.19.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.19.0\\microsoft.identitymodel.tokens.6.19.0.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\Abdmu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.19.0\\system.identitymodel.tokens.jwt.6.19.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/Users/abdulmunim/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.identitymodel.abstractions/6.19.0/microsoft.identitymodel.abstractions.6.19.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.19.0/microsoft.identitymodel.jsonwebtokens.6.19.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.identitymodel.logging/6.19.0/microsoft.identitymodel.logging.6.19.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.identitymodel.tokens/6.19.0/microsoft.identitymodel.tokens.6.19.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/system.identitymodel.tokens.jwt/6.19.0/system.identitymodel.tokens.jwt.6.19.0.nupkg.sha512",
+    "/Users/abdulmunim/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

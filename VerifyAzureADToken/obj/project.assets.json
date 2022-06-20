@@ -519,30 +519,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdmu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/abdulmunim/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdmu\\source\\repos\\VerifyAzureADToken\\VerifyAzureADToken\\VerifyAzureADToken.csproj",
+      "projectUniqueName": "/Users/abdulmunim/Code/TU/verify-azure-ad-token/VerifyAzureADToken/VerifyAzureADToken.csproj",
       "projectName": "VerifyAzureADToken",
-      "projectPath": "C:\\Users\\Abdmu\\source\\repos\\VerifyAzureADToken\\VerifyAzureADToken\\VerifyAzureADToken.csproj",
-      "packagesPath": "C:\\Users\\Abdmu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdmu\\source\\repos\\VerifyAzureADToken\\VerifyAzureADToken\\obj\\",
+      "projectPath": "/Users/abdulmunim/Code/TU/verify-azure-ad-token/VerifyAzureADToken/VerifyAzureADToken.csproj",
+      "packagesPath": "/Users/abdulmunim/.nuget/packages/",
+      "outputPath": "/Users/abdulmunim/Code/TU/verify-azure-ad-token/VerifyAzureADToken/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Abdmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/abdulmunim/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -588,7 +582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

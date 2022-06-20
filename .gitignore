@@ -1,0 +1,5 @@
+VerifyAzureADToken/bin/
+VerifyAzureADToken/obj/Debug
+VerifyAzureADToken/obj/Release
+.DS_Store
+
